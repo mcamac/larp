@@ -2,7 +2,7 @@
   "name": "larp",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
     "babel": "5.8.21"
   },
   "dependencies": {
-    "commander": "2.8.1"
+    "commander": "2.8.1",
+    "ramda": "0.17.1"
   }
 }
